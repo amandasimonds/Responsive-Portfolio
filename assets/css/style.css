@@ -1,0 +1,169 @@
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/leaves.png")
+}
+
+/*Header, Main, and Nav Bar*/
+
+h1{
+    font-family: 'Georgia';
+    font-size: 25px;
+    font-weight: ;
+    color: white;
+    background-color: rgb(131, 177, 131);
+    padding: 20px;
+    width: 250px;
+    text-align: center;
+    float: left;
+    position: relative;
+    top:-20px;
+    height:30px;
+    left: 350px;
+    z-index: ;
+}
+
+nav{
+    background-color: white;
+    border-bottom: 1px solid rgb(192, 192, 192);
+    width: 1500px;
+    text-align: right;
+    float: right;
+    box-sizing: ;
+    position: relative;
+    top: -10px;
+    height: 70px;
+    z-index: ;
+}
+
+navlinks{
+    font-family: helvetica;
+    font-size: 18px;
+    color: rgb(163, 162, 162);
+    line-height: 25px;
+    letter-spacing: 1px;
+    padding-right: 340px;
+    padding-top: 150px;
+    padding-bottom:20px;
+    position: relative;
+    top:20px;
+}
+
+a:link, a:visited{
+    font-family: helvetica;
+    font-size: 16px;
+    letter-spacing: 1px;
+    color: rgb(163, 162, 162);
+    text-decoration: none;
+}
+
+a:hover{
+    font-family: helvetica;
+    font-size: 16px;
+    color: rgb(131, 177, 131);
+    text-decoration: none;
+}
+
+main{
+    width:760px;
+    clear: both;
+    background-color: white;
+    border: 1px solid rgb(192, 192, 192);
+    position: relative;
+    left: 200px;
+    top:35px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 30px;
+    font-family: helvetica;
+    color: rgb(75, 74, 74);
+    font-size:16px;
+}
+
+h2{
+    font-family: 'Georgia';
+    font-size: 25px;
+    font-weight: ;
+    color: rgb(131, 177, 131);
+}
+
+/* About Me */
+
+#selfie{
+    float: left;
+    margin-right: 20px;
+    margin-top: 10px;
+}
+
+/* Contact Form */
+
+.container{
+    line-height: 30px;
+    padding-right:25px;
+}
+
+#message{
+    max-height: 50px;
+    margin-bottom:2px;
+    width: 100%;
+    font-family: helvetica;
+    color: rgb(75, 74, 74);
+    font-size:13px;
+    letter-spacing: 1px;
+    padding: 10px;
+    border-top: 1px solid rgb(180, 180, 180);
+    border-right: 1px solid rgb(180, 180, 180);
+    border-left: 1px solid rgb(180, 180, 180);
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+#name, #email{
+    width: 100%;
+    font-family: helvetica;
+    color: rgb(75, 74, 74);
+    font-size:13px;
+    letter-spacing: 1px;
+    padding: 10px;
+    margin-bottom:10px;
+    border-top: 1px solid rgb(180, 180, 180);
+    border-right: 1px solid rgb(180, 180, 180);
+    border-left: 1px solid rgb(180, 180, 180);
+    border-bottom: 1px solid rgb(238, 238, 238);
+}
+
+input[type=submit] {
+    background-color: rgb(131, 177, 131);
+    color: white;
+    padding: 7px 20px 7px 20px;
+    border: none;
+    cursor: pointer;
+    font-family: helvetica;
+    font-size:15px;
+}
+
+/*Portfolio*/
+
+#portfolio{
+    margin: 20px;
+    width: 250px;
+}
+
+.box{
+    position: relative;
+    display: inline-block; /* Make the width of box same as image */
+}
+.text{
+    position: absolute;
+    font-family: Georgia;
+    background-color: rgb(131, 177, 131);
+    color:white;
+    z-index: 999;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    opacity: 0.88;
+    top: 67%; /* Adjust this value to move the positioned div up and down */
+    text-align: center;
+    width: 250px; /* Set the width of the positioned div */
+}
