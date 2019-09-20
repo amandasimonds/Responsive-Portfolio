@@ -167,3 +167,28 @@ input[type=submit] {
     text-align: center;
     width: 250px; /* Set the width of the positioned div */
 }
+
+/*
+  These rules take effect when the browser's width
+  is either 768px or less.
+*/
+@media screen and (max-width: 768px) {
+    /* The body's bg color will be #333 */
+    body {
+    }
+  
+    wrapper {
+      width: 768px;
+      margin: 20px;
+      padding: 20px;
+    }
+  
+    #sidebar {
+      background:;
+      margin-top: 20px;
+    }
+  
+    main { 
+    /* Box-model */
+    width: 100%;
+  }
