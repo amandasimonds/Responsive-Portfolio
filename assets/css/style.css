@@ -187,28 +187,17 @@ input[type=submit] {
     }
 
     .media {
-        width:;
         margin-right: 15px;
         position: relative;
         top:-10px;
     }
 
-    navlinks, a:link, a:hover, a:visited, a:active {
-        font-size: ;
-        letter-spacing: ;
-        padding-right: ;
-    }
-
     h1 {
         left: 0px;
-        font-size: px;
-        padding:;
-        width:;
     }
   
     .wrapper {  
       width: 90%;
-      margin:;
       padding: 20px;
       float: left;
       /* display: flex;
@@ -219,7 +208,6 @@ input[type=submit] {
     .container {
         width: 100%;
         margin: 0px auto;
-        padding: ;
         float: left;
     }
 
@@ -244,7 +232,6 @@ input[type=submit] {
     nav {
         width:90%;
         left:15px;
-        height:;
     }
 
     .media {
@@ -254,30 +241,19 @@ input[type=submit] {
         top:-10px;
     }
 
-    navlinks, a:link, a:hover, a:visited, a:active {
-        font-size: px;
-        letter-spacing: px;
-        padding-right: ;
-    }
-
     h1 {
         left: 0px;
     }
   
     .wrapper {  
       width: 90%;
-      margin:;
       padding: 20px;
       float: left;
-      /* display: flex;
-      align-items: center;
-      justify-content: center; */
     }
   
     .container {
         width: 100%;
         margin: 0px auto;
-        padding: ;
         float: left;
     }
 
@@ -318,16 +294,12 @@ input[type=submit] {
     }
 
     navlinks, a:link, a:hover, a:visited, a:active {
-        font-size: ;
-        letter-spacing: ;
         padding: 10px ;
         text-align: center;
         margin: 0px auto;
     }
 
     h1 {
-        left: ;
-        font-size:  ;
         padding:8px;
         width:100%;
         position: absolute;
@@ -338,7 +310,6 @@ input[type=submit] {
   
     .wrapper {  
       width: 90%;
-      margin:;
       padding: 20px;
       float: left;
       /* display: flex;
@@ -349,9 +320,7 @@ input[type=submit] {
     .container {
         width: 100%;
         margin: 0px auto;
-        padding: ;
         float: left;
-        max-height: ;
     }
 
     main { 
